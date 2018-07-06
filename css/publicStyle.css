@@ -210,10 +210,110 @@ a{
 }
 .section-skew .skew-comp{
     font-size: 25px;
-    line-height: 50px;
+    line-height: 40px;
+    padding: 5px 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 100%;
     overflow: hidden;
 }
 
+/*各页面背景图*/
+.invest-section .fp-tableCell{
+    background: url(../img/invest.jpg) no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.company-section .fp-tableCell{
+    background: url(../img/company.jpg) no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.team-section .fp-tableCell{
+    background: url(../img/team.jpg) no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact-section .fp-tableCell{
+    background: url(../img/contact.jpg) no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*联系我们图标*/
+.contact-icon{
+    text-align: center;
+}
+.contact-icon img{
+    height: 55px;
+    padding: 0 30px;
+}
+#BDmap{
+    width: 100%;
+    height: 100%;
+}
+.contact-us{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 45%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding:10px  8px 5px 10px;
+}
+.contact-us .contact-title{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.contact-us .contact-detail{
+    color: #000;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.contact-detail mark{
+    background-color: #ccc;
+}
+.contact-detail .contact-bg{
+    margin-bottom: 6px;
+}
+.contact-detail input{
+    width: 100%;
+    outline: none;
+    background-color: #ccc;
+    border: none;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 6px;
+}
+.contact-detail textarea{
+    resize: none;
+    width: 100%;
+    outline: none;
+    background-color: #ccc;
+    border: none;
+}
+.contact-us .send-p{
+    text-align: right;
+}
+.contact-us .send-p span{
+    display: inline-block;
+    background-color: #ccc;
+    color: black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+   padding: 3px 13px;
+    cursor: pointer;
+}
+.contact-us .contact-detail-last-p{
+    padding-right: 10%;
+}
