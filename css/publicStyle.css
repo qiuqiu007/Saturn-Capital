@@ -33,6 +33,7 @@ a{
     overflow: hidden;
     padding: 0 40px 0 20px;
     z-index: 99;
+    background: #fff;
 }
 .fl{
     float: left;
