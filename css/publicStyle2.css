@@ -79,7 +79,7 @@ a{
     background: url(../img/menu-bg2.png) no-repeat center ;
 }
 .section{
-    padding-top: 155px;
+    /*padding-top: 155px;*/
 }
 .index-section .fp-tableCell{
     background: url(../img/inde.jpg) no-repeat center ;
@@ -89,7 +89,7 @@ a{
     background-size: cover;
 }
 .section-content{
-    padding-bottom: 160px;
+   /* padding-bottom: 160px;*/
 }
 .section h3{
     font-family: 'ActionProtocol';
@@ -134,8 +134,6 @@ a{
     -o-transform: skew(-10deg);
     transform: skew(-10deg);
     background-color: #fff;
-    padding-top: 45px;
-    padding-bottom: 280px;
     padding-left: 10%;
     padding-right: 10%;
     position: relative;
