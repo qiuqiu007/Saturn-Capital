@@ -144,6 +144,12 @@ a{
     padding-right: 10%;
     position: relative;
 }
+/*.section-content-text .section-skew:hover{
+    box-shadow: 0 0 25px #000;
+}
+.section-content-text .section-skew:focus{
+    box-shadow: 0 0 25px #000;
+}*/
 .section-skew .section-skew-position{
     width: 100%;
     height: 100%;

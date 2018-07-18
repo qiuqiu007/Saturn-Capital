@@ -72,12 +72,18 @@ a{
     height: 100%;
     float: left;
 }
-.menu-left a.active{
+.menu-left a:hover{
+    background: url(../img/menu-bg.png) no-repeat center ;
+}
+.menu-right a:hover{
+    background: url(../img/menu-bg2.png) no-repeat center ;
+}
+/*.menu-left a.active{
     background: url(../img/menu-bg.png) no-repeat center ;
 }
 .menu-right a.active{
     background: url(../img/menu-bg2.png) no-repeat center ;
-}
+}*/
 .section{
     /*padding-top: 155px;*/
 }
@@ -89,7 +95,7 @@ a{
     background-size: cover;
 }
 .section-content{
-   /* padding-bottom: 160px;*/
+    /* padding-bottom: 160px;*/
 }
 .section h3{
     font-family: 'ActionProtocol';
@@ -128,6 +134,7 @@ a{
     width: 85%;
     margin: 0 auto;
     height: 100%;
+    padding-top: 150px;
     -webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
     -ms-transform: skew(-10deg);
@@ -138,6 +145,12 @@ a{
     padding-right: 10%;
     position: relative;
 }
+/*.section-content-text .section-skew:hover{
+    box-shadow: 0 0 25px #000;
+}
+.section-content-text .section-skew:focus{
+    box-shadow: 0 0 25px #000;
+}*/
 .section-skew .section-skew-position{
     width: 100%;
     height: 100%;
@@ -155,7 +168,7 @@ a{
     position: absolute;
     left: 0;
     top: 50%;
-    margin-top: -200px;
+    margin-top: -250px;
     overflow: hidden;
 }
 .skew-content-p .skew-cont{
@@ -167,6 +180,9 @@ a{
     width: 100%;
     height: 370px;
     padding-right: 420px;
+}
+.team-section .section-skew .skew-left{
+    padding-right: 0;
 }
 .skew-left .detail-text{
     width: 100%;
@@ -198,7 +214,7 @@ a{
     overflow: hidden;
 }
 .section-skew .skew-right .logos{
-   width: 314px;
+    width: 314px;
 }
 .section-skew .skew-right .arrow-next{
     width: 15px;
@@ -263,7 +279,7 @@ a{
     height: 100%;
 }
 .contact-section .contact-us-bg{
-   /* background: url("../img/map.jpg") left top no-repeat;*/
+    /* background: url("../img/map.jpg") left top no-repeat;*/
 }
 .contact-us{
     position: absolute;
@@ -317,7 +333,7 @@ a{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-   padding: 3px 13px;
+    padding: 3px 13px;
     cursor: pointer;
 }
 .contact-us .contact-detail-last-p{

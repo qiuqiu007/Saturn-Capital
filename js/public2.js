@@ -2,7 +2,10 @@ $(function(){
     $('#myContainer').fullpage({
         resize:false,
         controlArrows:false,
-        anchors: ['index', 'invest', 'company', 'team','contact'],
+        anchors: ['index', 'invest','invest1','invest2','invest3','invest4',
+            'company','company1','company2','company3','company4','company5',
+            'team','team1','team2','team3','team4','team5','team6','team7','team8','team9',
+            'contact','contact1'],
         menu: '#menu-p'
     });
     isPaging();
